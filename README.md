@@ -1,6 +1,4 @@
-> detox
-
-# React Native Cucumber Integration
+# React Native Detox Cucumber Integration
 
 This integration is mainly tested against android. But there shouldn't be any problem with ios also.
 
@@ -12,21 +10,21 @@ This integration is mainly tested against android. But there shouldn't be any pr
    * react-native-cli is installed (`npm install -g react-native-cli`)
    * watchman is installed (`brew install watchman`)
 
-### Step 1: Npm install
+### Step 1: Adding dependencies
 
-* Make sure you're in folder `examples/demo-react-native-cucumber`.
+* Make sure you're inside your git cloned folder `react-native-detox-cucumber`.
 * Run `yarn`.
 
 ## To test Release build of your app
 ### Step 2: Build 
-* Build the demo project
+* Build the project
  
  ```sh
  detox build --configuration android.emu.release
  ```
  
 ### Step 3: Test 
-* Run tests on the demo project via cucumber command.
+* Run tests on the project via cucumber command.
  
  ```sh
  node_modules/.bin/cucumber-js ./e2e/features --require-module @babel/register --configuration android.emu.release
