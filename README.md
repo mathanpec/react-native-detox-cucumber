@@ -31,13 +31,15 @@ Before starting out with Cucumber, please be sure to go over the [Getting Starte
  ```
  
 ### Step 3: Test 
-* Run tests on the project via cucumber command. In cucumber, since we write the test steps in plain [gherkin](https://cucumber.io/docs/gherkin/reference/) syntax, we need to start the test via cucumber command which will understand the gherkin syntax and execute the syntax.
+* Run tests on the project via cucumber command.
  
  ```sh
  node_modules/.bin/cucumber-js ./e2e/features --require-module @babel/register --configuration android.emu.release
  ```
 
  This action will open a new simulator and run the tests on it.
+
+ In cucumber, since we write the test steps in plain [gherkin](https://cucumber.io/docs/gherkin/reference/) syntax, we need to start the test via cucumber command which will understand the gherkin syntax and execute them.
 
  Any arguments which you would have wanted to pass it to detox directly, you can continue to pass it as an argument to `cucumber-js` like how we have passed `--configuration` and detox will read it internally.
 
