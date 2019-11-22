@@ -46,7 +46,7 @@ Before starting out with Cucumber, please be sure to go over the fundamentals of
 ```js
 const detox = require('detox');
 const { BeforeAll, AfterAll } = require('cucumber');
-const config = require('path-to-pacjage.json').detox;
+const config = require('path-to-package.json').detox;
 
 BeforeAll(async () => {
   await detox.init(config);
