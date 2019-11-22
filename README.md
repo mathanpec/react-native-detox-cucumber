@@ -11,7 +11,7 @@ This integration is mainly tested against android. But there shouldn't be any pr
    * watchman is installed (`brew install watchman`)
 
 ### Step 0: 
-Before starting out with Cucumber, please be sure to go over the [Getting Started](Introduction.GettingStarted.md) guide from Detox.
+Before starting out with Cucumber, please be sure to go over the fundamentals of [Getting Started](Introduction.GettingStarted.md) guide from Detox.
 
 ### Step 1: Adding dependencies
 
