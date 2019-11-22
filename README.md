@@ -2,10 +2,6 @@
 
 This integration is mainly tested against android. But there shouldn't be any problem with ios also.
 
-## How this works
-
-
-
 ## Requirements
 
 * Make sure you have Xcode or Android Studio installed based on your requirements
@@ -62,6 +58,8 @@ AfterAll(async () => {
 ```
 
 You can notice that same being done in `e2e/features/support/init.js` in this repository. So when you execute the `cucumber` command, cucumber hooks gets called and detox initialisation happens and then cucumber starts executing every scenarios written in its feature file.
+
+Check `e2e/features/example.feature` for test scenarios and `e2e/features/support/step_definitions` for the step definitions.
 
 
 ## To test Debug build of your app
