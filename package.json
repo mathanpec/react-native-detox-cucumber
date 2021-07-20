@@ -18,7 +18,7 @@
     "detox": "^14.7.1",
     "mocha": "^6.2.2",
     "react": "16.8.6",
-    "react-native": "0.60.6"
+    "react-native": "0.62.3"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
